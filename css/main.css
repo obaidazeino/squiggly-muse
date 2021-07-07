@@ -122,12 +122,30 @@ header a:hover {
   padding: 1rem;
 }
 
+footer {
+  background-color: #00625a;
+  padding: 4rem;
+  text-align: center;
+}
+
 @media only screen and (min-width: 800px) {
 
   .big-square {
     display: grid;
     border-radius: 200px 0;
     overflow: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 1700px) {
+
+  .whole-box {
+    display: inline-block;
+    width: 49%;
+  }
+  .big-square {
+    margin: 1rem auto;
   }
 
 }
